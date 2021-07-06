@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>QnA STB</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container text-center mt-4">
+      <h2>Selamat Datang</h2>
+      <br />
+      <p>Cari apa yang ingin anda ketahui</p>
+
+      <!-- Button to Open the Modal -->
+      <button
+        type="button"
+        class="btn btn-primary btn-block"
+        data-toggle="modal"
+        data-target="#myModal1"
+      >
+        Apa itu IDENA ?
+      </button>
+      <button
+        type="button"
+        class="btn btn-primary btn-block"
+        data-toggle="modal"
+        data-target="#myModal2"
+      >
+        Apa itu joki IDENA ?
+      </button>
+      <button
+        type="button"
+        class="btn btn-primary btn-block"
+        data-toggle="modal"
+        data-target="#myModal3"
+      >
+        Berapa fee yang di dapat sebagai joki ?
+      </button>
+      <button
+        type="button"
+        class="btn btn-primary btn-block"
+        data-toggle="modal"
+        data-target="#myModal4"
+      >
+        Bagaimana cara belajar melakukan validasi ?
+      </button>
+      <button
+        type="button"
+        class="btn btn-primary btn-block"
+        data-toggle="modal"
+        data-target="#myModal5"
+      >
+        Bagaimana cara login via WEB dan RdClient ?
+      </button>
+
+      <!-- The Modal1 -->
+      <div class="modal fade" id="myModal1">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+                <p>
+                    IDENA adalah sebuah blockchain yang menggunakan mekanisme algoritma consensus Proof of Person (PoP) pertama didunia yang mana setiap akun 
+                    IDENA hanya terbatas dimiliki oleh satu orang saja. 
+                    Dengan kondisi tersebut, kekuatan voting setiap akun akan lebih kuat dan tahan terhadap manipulasi data.
+                    Seperti yang kita ketahui bahwa setiap orang adalah unik dan berbeda-beda, IDENA mencoba untuk memberika hadiah atas 
+                    keunikan tersebut dengan memberikan insentif bagi mereka yang ingin menjadi validator dan miner pada jaringan blockchain IDENA.</p>
+                <p>
+                    ada 3 tier atau pangkat di dalam akun idena yaitu newbie, verified, dan juga human serta akun candidate untuk akun yang belum melakukan validasi sama sekali
+                    setiap tier memiliki jangka waktu yang berbeda untuk naik ke tier selanjutnya biasanya 3-4 kali validasi akun akan naik ke tier selanjutnya. namun ada syarat khusus
+                    untuk bisa naik ke tier human, dimana setiap akun wajib memiliki akumulasi persentasi diatas 96% ketika sudah 3 kali main, apabila syarata itu tidak tercukupi
+                    maka setiap akun akan mentok di tier verified.
+                </p>
+            </div>
+
+            <!-- Modal footer -->
+          </div>
+        </div>
+      </div>
+
+       <!-- The Modal2 -->
+       <div class="modal fade" id="myModal2">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+                <p>
+                    Joki IDENA adalah orang yang melakukan validasi atau menebak gambar setiap 2 minggu sekali tanpa perlu memikirkan bagaimana cara membuat akun dana akan di bayar
+                    sesuai dengan tear dan akumulasi persentasi yang ada dari setiap akun. 
+                </p>
+                <p>
+                    setiap orang bisa menjadi joki IDENA dan dibebaskan untuk memiliki berapa banyakpun akun yang ada selama mampu untuk melakukan proses validasi
+                </p>
+            </div>
+
+            <!-- Modal footer -->
+          </div>
+        </div>
+      </div>
+
+       <!-- The Modal3 -->
+       <div class="modal fade" id="myModal3">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+               <p>Newbie = 20.000</p>
+               <p>Newbie to verified = 75.000</p>
+               <p>Verified under 100% = 35.000</p>
+               <p>Verified 100% = 40.000</p>
+               <p>Human under 100% = 40.000</p>
+               <p>Human 100% = 50.000</p>
+                <br>
+               <p>*gagal di pangkat newbie = 0.000</p>
+               <p>*gagal di pangkat verified & human = 10.000</p>
+               <p>*setiap mengajak teman akan mendapat bonus 10.000/orang</p>
+            </div>
+
+            <!-- Modal footer -->
+          </div>
+        </div>
+      </div>
+
+       <!-- The Modal4 -->
+       <div class="modal fade" id="myModal4">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+                <p>1. Masuk ke web berikut : https://flips.idena.io/</p>
+                <p>2. masukan nama (Bebas) tidak perlu masukan Puzzle code</p>
+                <p>3. pilih gambar antara kanan dan kiri, mana gambar yang memiliki alur yang benar dari atas sampai bawah</p>
+                <p>4. submit dan hasil persentasi akan terlihat.</p>
+            </div>
+
+            <!-- Modal footer -->
+          </div>
+        </div>
+      </div>
+
+       <!-- The Modal5 -->
+       <div class="modal fade" id="myModal5">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+                <h3>Tutorial Login Via Web Browser (Google Chrome)</h3>
+                <p>1. Masuk ke web berikut : https://app.idena.io/key/import</p>
+                <p>2. Masukan private key</p>
+                <p>3. Masukan password</p>
+                <p>4. Bila diminta untuk "connect to idena node" pilih "enter shared node API Key"</p>
+                <p>5. Masukan node address</p>
+                <p>6. Masukan node API Key</p>
+                <p>7. Setelah masuk akun, tunggu hingga waktu validasi tiba yaitu pukul 20:30 WIB</p>
+                <br>
+                <br>
+                <h3>Tutorial Login Via RdClient</h3>
+                <p>1. download rdClient di Playstore/AppStore</p>
+                <p>2. Masukan Ip Address</p>
+                <p>3. Masukan Password</p>
+            </div>
+
+            <!-- Modal footer -->
+          </div>
+        </div>
+      </div>
+   
+  </body>
+</html>
